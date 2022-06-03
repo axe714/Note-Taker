@@ -1,7 +1,7 @@
 const router = require("express").Router()
 const path = require("path")
 const fs = require("fs")
-const uuid = require("./helpers/uuid")
+const uuid = require("../helpers/uuid")
 
 //POSTS inside the DB json file
 router.post("/notes", (req, res) => {
@@ -13,3 +13,5 @@ router.post("/notes", (req, res) => {
 
     fs.writeFileSync(path.join(process.cwd(), "db/db.json"), json.stringfy(newSaves))
 })
+
+module.exports = router
