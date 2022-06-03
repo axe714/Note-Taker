@@ -16,4 +16,4 @@ app.use('/', apiRoutes)
 
 
 
-app.listen(PORT, () => console.log(`Listening on PORT ${PORT}`))
+app.listen(PORT, () => console.log(`Listening on PORT ${PORT}. View it on http://localhost:${PORT}`))
