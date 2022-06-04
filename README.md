@@ -42,7 +42,7 @@
 - [Note Taker](https://github.com/axe714/Note-Taker)
 
 ## Deployed Link:
-- [Heroku Link --- PENDING](#)
+- [Note Taker (Heroku)](https://limitless-temple-23345.herokuapp.com/)
 
 ## Contact Information:
 - [Github Profile - Axe714](www.github.com/axe714)
