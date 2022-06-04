@@ -1,7 +1,6 @@
 const path = require("path");
 const router = require("express").Router();
 
-//serve our HTML files
 
 //serve our notes page
 router.get("/notes", (req, res) => {
