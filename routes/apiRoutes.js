@@ -3,6 +3,13 @@ const path = require("path");
 const fs = require("fs");
 const uuid = require("../helpers/uuid");
 
+//get our notes from the db
+router.get("/api/notes", (req, res) => {
+  const notes = fs.readFileSync("./db/db.json", "utf8");
+  const parsedNotes = JSON.parse(notes);
+  res.json(parsedNotes);
+});
+
 //POSTS inside the DB json file
 router.post("/notes", (req, res) => {
   //we have to use process.cwd (CWD stands for current working directory)
