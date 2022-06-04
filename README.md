@@ -20,7 +20,7 @@
     * [Email](#email)
 
 ## Installation
-- Run ``` npm i ``` to install the required dependencies, then run ``` node server.js ``` in the terminal to launch the application. The application by default will be hosted on localhost:3001. Follow the terminal prompts and click on the provided link quickly access the application.
+- Run ``` npm i ``` to install the required dependencies, then run ``` node server.js ``` in the terminal to launch the application. The application, by default, will be hosted on localhost:3001. Follow the terminal prompts and click on the provided link to quickly access the application.
 
 ## Usage
 - This application utilizes both a front-end and a back-end to create, read, and delete notes. To store, view, and delete notes follow the steps below:
