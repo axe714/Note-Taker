@@ -23,12 +23,20 @@
 - Run ``` npm i ``` to install the required dependencies, then run ``` node server.js ``` in the terminal to launch the application. The application by default will be hosted on localhost:3001. Follow the terminal prompts and click on the provided link quickly access the application.
 
 ## Usage
-- This application utilizes both a front-end and a back-end to create, read, update, and delete notes. To store notes follow the steps below:
+- This application utilizes both a front-end and a back-end to create, read, and delete notes. To store, view, and delete notes follow the steps below:
 ```
+Add a note:
 1. Click the '➕' button to add a new note.
 2. Enter the note title in the title input field.
 3. Enter the note content in the content input field.
 4. Click the '💾' button in the top right corner. 
+
+View a note:
+1. Click on the note title on the left side of the screen.
+2. The note will open and display the note's title and content.
+
+Delete a note:
+1. Delete individual notes by clicking on the '🗑️' button in the stored notes box.
 ```
 
 ## License
